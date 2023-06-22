@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: react-app
-        image: apiwatarm/reactapp-ci:1.0
+        image: apiwatarm/reactapp-ci:d39610d7ba2d6f6db45482582bcf8ffa9a6e2d8c
         imagePullPolicy: Always
         ports:
         - containerPort: 80
